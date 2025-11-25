@@ -25,13 +25,13 @@
                 <h2 class="titulo_login">Bem vindo(a)!</h2>
                 <p class="subtitulo_login">Entre para adquirir peças unicas</p>
             </header>
-            <form method="post" action="/Login/Entrar" class="formulario-login">
+            <form method="post" asp-action="/Login/Entrar" class="formulario-login">
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email" placeholder="email@email.com" required>
 
                 <div class="campo_senha">
-                    <label for="senha">Senha:</label>
-                    <input type="senha" name="senha" id="senha" placeholder="********" required>
+                    <label for="password">Senha:</label>
+                    <input type="password" name="senha" id="senha" placeholder="********" required>
                     <span class="icone_olho">
                         <img src="~/img/eye.svg" alt="">
                     </span>
